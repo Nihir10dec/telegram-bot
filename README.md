@@ -2,7 +2,7 @@
 
 ## This bot is used to configure Telegram Bots commands
 
-After registering your Bot with BotFather in Telegram ( [Here's](https://core.telegram.org/bots) a link on how to do it) you will be provided the Bot Token.
+After registering your Bot with BotFather in Telegram ([Here's](https://core.telegram.org/bots) a link on how to do it) , you will be provided the Bot Token.
 
 You can use it directly in OR you can also save it in a **.env** file and load it from the environment variable and then use it like this.
 ```
