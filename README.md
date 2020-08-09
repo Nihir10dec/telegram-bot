@@ -21,4 +21,12 @@ def send_welcome(message):
 ```
 >This is a simple example on how you can reply when a particular command is selected on the Bot. For more options you can check [pyTelegramBotAPI](https://pypi.org/project/pyTelegramBotAPI/)
 
-The code in Bot.py is written to Start and Stop an Azure Virtual Machine using an private API which is also stored in **.env** file.
+The code in Bot.py is written to Start and Stop an Azure Virtual Machine using an private API whose URL are also stored in **.env** file and then called via the requests library in Python.
+It's done in 3 steps
+1. It checks whether the user who is trying to start or stop the server is whether authorised or not to do so and replies accoridngly to the user if not authorised.
+2. It checks the current status of the Azure' VM and if it's the opposite then it calls the private URL to turn on or off the server.
+3. If first two steps are validated then it sends a message to user that it is trying to Start/Stop the server and it may take some time.
+4. On successfull response from the API then it replies to the user that the task has been completed.
+
+###### This code is designed to run on the local machine & you can run the scirpt and try sending the command to get the desired reply.
+###### If you are not planning to call any private API then you can host it on [PythonAnywhere](https://www.pythonanywhere.com/) so that you don't have to keep on running the script on your local machine.
