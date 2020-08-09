@@ -1,5 +1,5 @@
 import telebot
-import requests , os , time
+import requests , os
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -71,10 +71,16 @@ def send_welcome(message):
     else:
         bot.reply_to(message , 'You are not Authorized to Stop the server... ')
 
-while True:
-    try:
-        bot.polling(none_stop=True)
-        # ConnectionError and ReadTimeout because of possible timout of the requests library
-        # maybe there are others, therefore Exception
-    except Exception:
-        time.sleep(15)
+@server.route('/' + TOKEN, methods=['POST'])
+def getMessage():
+    bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
+    return "!",200
+
+@server.route("/")
+def webhook():
+    bot.remove_webhook()
+    bot.set_webhook(url="https://boiling-castle-52185.herokuapp.com/" + TOKEN)
+    return "!",200
+
+if __name__ == "__main__":
+    server.run(host="0.0.0.0" , port=int(os.environ.get('PORT' , 5000)))
