@@ -29,4 +29,5 @@ It's done in 3 steps
 4. On successfull response from the API then it replies to the user that the task has been completed.
 
 ###### This code is designed to run on the local machine & you can run the scirpt and try sending the command to get the desired reply.
-###### If you are not planning to call any private API then you can host it on [PythonAnywhere](https://www.pythonanywhere.com/) so that you don't have to keep on running the script on your local machine.
+##### If you are not planning to call any private API then you can host it on [PythonAnywhere](https://www.pythonanywhere.com/) so that you don't have to keep on running the script on your local machine.
+##### If you want to call any API which is not whitelisted by PythonAnywhere then you will have to use [Heroku](https://heroku.com) by configuring it with flask to make it compatible to run.
