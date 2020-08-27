@@ -1,6 +1,6 @@
 # Telegram-bot
 
-## To understand the entire project plese do read [my article](https://medium.com/@nihir_shah/managing-azure-instances-with-telegram-bot-using-python-part-2-f9a19923132d) on it.
+## To understand the entire project please do read [my article](https://medium.com/@nihir_shah/managing-azure-instances-with-telegram-bot-using-python-part-2-f9a19923132d) on it.
 
 ## This bot is used to configure Telegram Bots commands
 
