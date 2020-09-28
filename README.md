@@ -1,8 +1,7 @@
 # Telegram-bot
-
-[](https://img.shields.io/github/issues/Nihir10dec/telegram-bot)
-[](https://img.shields.io/badge/Telegram-Bot-informational)
-
+[![GitHub issues](https://img.shields.io/github/issues/Nihir10dec/telegram-bot)](https://github.com/Nihir10dec/telegram-bot/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Nihir10dec/telegram-bot)](https://github.com/Nihir10dec/telegram-bot/network)
+[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FNihir10dec%2Ftelegram-bot%2F)
 
 ## To understand the entire project please do read [my article](https://medium.com/@nihir_shah/managing-azure-instances-with-telegram-bot-using-python-part-2-f9a19923132d) on it.
 
