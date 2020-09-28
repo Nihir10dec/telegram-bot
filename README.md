@@ -1,5 +1,6 @@
 # Telegram-bot
 [![GitHub issues](https://img.shields.io/github/issues/Nihir10dec/telegram-bot)](https://github.com/Nihir10dec/telegram-bot/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Nihir10dec/telegram-bot)](https://github.com/Nihir10dec/telegram-bot/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Nihir10dec/telegram-bot)](https://github.com/Nihir10dec/telegram-bot/network)
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fnihir10dec)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FNihir10dec%2Ftelegram-bot%2F)
 
